@@ -1,0 +1,5 @@
+### Use gigachat_changchain library to create python program.
+### An excel file is sent to the AI agent in the chat data.xlsx , which lists epics from jira. The bot has access to jira, bitbucket, and confluence.
+### The first part of the task is to calculate the risks of not meeting the epic goals this quarter, as well as find all the tasks that could become blockers and list them along with the performers.
+### The second part of the task is, when you receive the "figure out roles" command in the chat, you need to use only jira, confluence, and bitbucket to list the intended roles of all performers from jira for meaningfully related epics. It is important to understand that architects, directors, etc. may conduct their tasks in a different epic or confluence. You need to make a separate list of them.
+### The third part of the task is that when you receive the "calculate the result" command, you need to calculate the average speed of completing tasks per sprint and bring out the team members, without whom the speed will not change.
